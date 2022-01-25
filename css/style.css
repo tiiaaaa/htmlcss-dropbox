@@ -19,6 +19,12 @@
     float: right;
 }
 
+/* Classe provvisoria pre dare una dimensione senza il 
+contenuto */
+.width{
+    width: 100%;
+}
+
 /* Font del documento */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -29,7 +35,7 @@ body{
     vertical-align: baseline;
 } */
 
-header{
+#top-header{
     width: 100%;
     min-width: 1065px;
     height: 90px;
@@ -50,9 +56,9 @@ div ul li a{
 }
 
 /* Main  */
-/* Jumbotron */
+/* Section Jumbotron */
 section div.jumbotron{
-    width: 85%;
+    width: 90%;
     height: 500px;
     margin: 0 auto;
     padding: 3rem;
@@ -67,6 +73,26 @@ div.img-jumbotron{
     width: 65%;
     height: 100px;
     background-color: darkorange;
+}
+/* Seconda Section (dopo jumbotron) */
+section div.container{
+    width: 75%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: darkorchid;
+}
+
+div.container > header.section-header, footer.section-footer{
+    width: 100%;
+    height: 100px;
+    background-color: rosybrown;
+}
+
+/* I 3 aside flottati */
+div aside{
+    width: calc(100% / 3);
+    height: 300px;
+    background-color: red;
 }
 
 

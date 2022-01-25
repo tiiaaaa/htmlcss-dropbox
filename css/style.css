@@ -49,4 +49,24 @@ div ul li a{
     color: black;
 }
 
+/* Main  */
+/* Jumbotron */
+section div.jumbotron{
+    width: 85%;
+    height: 500px;
+    margin: 0 auto;
+    padding: 3rem;
+    background-color: cyan;
+}
+
+div.text-jumbotron{
+    width: 35%;
+}
+
+div.img-jumbotron{
+    width: 65%;
+    height: 100px;
+    background-color: darkorange;
+}
+
 

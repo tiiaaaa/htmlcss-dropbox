@@ -26,6 +26,10 @@
     background-color: darkorchid;
 }
 
+.btn{
+    
+}
+
 .explain-text{
     width: 35%;
     height: 150px;
@@ -62,20 +66,20 @@ body{
     background-color:powderblue;
 }
 
-div ul li{
+nav ul li.item-style{
     display: inline;
     list-style-type: none;
     margin-left: 40px;
 }
 
-div ul li a{
+li.item-style a{
     text-decoration: none;
     font-weight: 600;
     color: black;
 }
 
 /* Main  */
-/* Section Jumbotron */
+/* Prima Section Jumbotron */
 section div.jumbotron{
     width: 90%;
     height: 500px;
@@ -104,6 +108,40 @@ div aside{
 /* Quarta Section  */
 
 
+/* Quinta Section */
+
+
 /* Sesta Section */
+div.row{
+    border-bottom: 2px solid black;
+}
+/* Div che da la dimensione alla domada */
+div.question{
+    width: 90%;
+    background-color: crimson
+}
+/* Div che da la dimensione al selettore */
+div.select{
+    width: 10%;
+    background-color: darkorange;
+}
+
+/* Footer */
+div.footer-container{
+    width: 95%;
+    height: 500px;
+    padding: 50px 80px;
+}
+
+div.ul-box{
+    width: calc(100% / 5);
+    background-color: chartreuse;
+}
+
+li.footer-item{
+    list-style-type: none;
+
+}
+
 
 

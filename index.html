@@ -18,22 +18,22 @@
         <div class="float-left">
             <img id="header-logo" src="img/logo-small.png" alt="Logo DropBox">
         </div>
-        <div class="float-left">
+        <nav class="float-left">
             <ul>
-                <li><a href="#">Perché DropBox?</a></li>
-                <li><a href="#">Funzioni</a></li>
-                <li><a href="#">Piani e prezzi</a></li>
+                <li class="item-style"><a href="#">Perché DropBox?</a></li>
+                <li class="item-style"><a href="#">Funzioni</a></li>
+                <li class="item-style"><a href="#">Piani e prezzi</a></li>
             </ul>
-        </div>
+        </nav>
         
-        <div class="float-right">
+        <nav class="float-right">
             <ul>
-                <li><a href="#">Supporto</a></li>
-                <li><a href="#">Contatta l'ufficio vendite</a></li>
-                <li><a href="#">Accedi</a></li>
-                <li><a class="btn" href="#">Inizia</a></li>
+                <li class="item-style"><a href="#">Supporto</a></li>
+                <li class="item-style"><a href="#">Contatta l'ufficio vendite</a></li>
+                <li class="item-style"><a href="#">Accedi</a></li>
+                <li class="item-style"><a class="btn" href="#">Inizia</a></li>
             </ul>
-        </div>
+        </nav>
     </header>
 
     <main>
@@ -79,7 +79,11 @@
         <!-- Terza Section -->
         <section>
             <div class="container clearfix">
-                <div class="explain-text float-right"></div>
+                <div class="explain-text float-right">
+                    <h1></h1>
+                    <p></p>
+                    <a href="#"></a>
+                </div>
                 <div class="explain-img float-left"></div>
             </div>
         </section>
@@ -109,18 +113,35 @@
         <!-- Sesta Section -->
         <section>
             <div class="container">
-                <div>titolo</div>
-                <div class="width clearfix">
-                    <div class="float-right">aaa</div>
-                    <div class="float-left">vvv</div>
+                <!-- Prima row composta solo dal titolo -->
+                <div class="row width">
+                    <h1>Titolo</h1>
                 </div>
+                <!-- Seconda row che verrà duplicata x 4 -->
+                <div class="row width clearfix">
+                    <div class="select float-right">aaa</div>
+                    <div class="question float-left">vvv</div>
+                </div>
+
             </div>
         </section>
     </main>
 
     <footer>
         <section>
-
+            <div class="footer-container clearfix">
+                <!-- Wrapper della ul che andrà ripetuto e flottato -->
+                <div class="ul-box float-left">
+                    <h1>bello</h1>
+                    <ul class="footer-list">
+                        <li class="footer-item">a</li>
+                        <li class="footer-item">v</li>
+                        <li class="footer-item">f</li>
+                        <li class="footer-item">s</li>
+                        <li class="footer-item">a</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </footer>
     

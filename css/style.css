@@ -18,3 +18,35 @@
 .float-right{
     float: right;
 }
+
+/* Font del documento */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header */
+/* img#heder-logo{
+    vertical-align: baseline;
+} */
+
+header{
+    width: 100%;
+    min-width: 1065px;
+    height: 90px;
+    line-height: 90px;
+    background-color:powderblue;
+}
+
+div ul li{
+    display: inline;
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+div ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+
+

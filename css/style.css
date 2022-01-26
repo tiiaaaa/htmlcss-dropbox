@@ -21,7 +21,7 @@
 
 .container{
     width: 75%;
-    height: 700px;
+    height: 400px;
     margin: 0 auto;
     background-color: darkorchid;
 }
@@ -54,16 +54,16 @@ body{
 }
 
 /* Header */
-/* img#heder-logo{
-    vertical-align: baseline;
-} */
-
 #top-header{
     width: 100%;
     min-width: 1065px;
     height: 90px;
     line-height: 90px;
-    background-color:powderblue;
+}
+
+img#heder-logo{
+    width: 100%;
+    vertical-align: middle;
 }
 
 nav ul li.item-style{
@@ -89,14 +89,14 @@ section div.jumbotron{
 }
 
 /* Seconda Section (dopo jumbotron) */
-div.container > header.section-header, footer.section-footer{
+section.container > header.section-header, footer.section-footer{
     width: 100%;
     height: 100px;
     background-color: rosybrown;
 }
 
 /* I 3 aside flottati */
-div aside{
+div aside.card{
     width: calc(100% / 3);
     height: 300px;
     background-color: red;
@@ -110,8 +110,33 @@ div aside{
 
 /* Quinta Section */
 
-
 /* Sesta Section */
+section#square{
+    width: 100%;
+} 
+/* Quadrato centrale */
+.article-box{
+    width: 40%;
+    height: 460px;
+    background-color: yellow;
+}
+/* Quadrati laterali */
+.aside-box{
+    width: 30%;
+    height: 460px;
+    background-color: red;
+}
+
+div.block{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    border: 1px solid red;
+    background-color: purple;
+}
+
+/* Settima Section */
+
+/* Ottava Section */
 div.row{
     border-bottom: 2px solid black;
 }

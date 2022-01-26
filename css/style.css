@@ -29,29 +29,28 @@ section{
 
 .container{
     width: 75%;
-    height: 400px;
+    /* height: 600px; */
     margin: 0 auto;
     background-color: darkorchid;
 }
 /* Classe comune dedicata ai bottoni */
 .btn{
+    width: 100%;
     color: white;
-    padding: 0.4rem 1.2rem;
+    padding: 0.6rem 1.2rem;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 1rem;
     background-color: blue;
 }
 
-.explain-text{
-    width: 35%;
-    height: 300px;
+.space-min{
+    width: 30%;
     padding-right: 4rem;
     background-color: crimson;
 }
 
-.explain-img{
-    width: 65%;
-    height: 100px;
+.space-max{
+    width: 70%;
     background-color: darkorange;
 }
 
@@ -77,6 +76,9 @@ body{
     height: 90px;
     line-height: 90px;
     padding: 0 1rem;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 img#heder-logo{
@@ -123,15 +125,12 @@ div.jumbotron h1{
     font-weight: 700;
 }
 
-div.explain-text:first-child p{
+div.space-min:first-child p{
     margin-bottom: 2rem;
     font-weight: 500;
     line-height: 1.4rem;
 }
 
-div.explain-text a.btn{
-    font-size: 1rem;
-}
 /* Icona della freccia */
 i.fas{
     font-size: 2.5rem;
@@ -158,11 +157,74 @@ input{
 }
 
 /* I 3 aside flottati */
-div aside.card{
-    width: calc(100% / 3);
-    height: 300px;
+aside#middle-colum{
+    margin: 0 30px;
+}
+
+div aside.colum{
+    width: calc((100% / 3) - 20px);
+    height: 950px;
+    border: 1px solid black;
     background-color: red;
 }
+
+/* Interno Colonna */
+div.heading{
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+    font-weight: 500;
+}
+
+div.description-colum{
+    padding: 1.5rem 1.2rem;
+}
+
+div.description-colum h2, h4{
+    margin-bottom: 10px;
+}
+
+div.description-colum span{
+    color: grey;
+}
+
+div.description-colum p{
+    font-weight: 500;
+}
+
+div.box-button{
+    margin-bottom: 30px;
+}
+
+div.description-colum ul li{
+    list-style-type: none;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+ul li i.fa-check, i.fa-user, i.fa-folder, i.fa-pencil-alt, i.fa-building{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+
+i.fa-check{
+    color: blue;
+}
+
+/* Footer seconda section */
+/* div#contact-office{
+    padding: 1.5rem;
+} */
+.section-footer{
+    background-color: chartreuse;
+}
+
+div.utility-wrap{
+    padding: 1.5rem;
+}
+
+
+
 
 /* Terza Section (dopo Jumbotron) */
 

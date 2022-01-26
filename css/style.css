@@ -6,7 +6,7 @@
 
 /* Utility class */
 section{
-    margin-bottom: 7rem;
+    margin-bottom: 160px;
 }
 
 .clearfix{
@@ -139,10 +139,11 @@ i.fas{
 
 
 /* Seconda Section (dopo jumbotron) */
-section.container > footer.section-footer{
-    width: 100%;
-    height: 100px;
-    background-color: rosybrown;
+header.section-header{
+    padding: 2rem 0;
+}
+.section-header h2.sub-title{
+    font-size: 2.5rem;
 }
 
 div.radio{

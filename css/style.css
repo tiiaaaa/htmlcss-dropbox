@@ -46,6 +46,11 @@ section{
     background-color: blue;
 }
 
+h2.sub-title{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
 .space-min{
     width: 30%;
     padding-right: 4rem;
@@ -55,10 +60,6 @@ section{
 .space-max{
     width: 70%;
     background-color: darkorange;
-}
-
-h2.sub-title{
-    margin-bottom: 3rem;
 }
 
 /* Classe provvisoria pre dare una dimensione senza il 
@@ -145,9 +146,6 @@ i.fas{
 /* Seconda Section (dopo jumbotron) */
 header.section-header{
     padding: 2rem 0;
-}
-.section-header h2.sub-title{
-    font-size: 2.5rem;
 }
 
 div.radio{
@@ -316,18 +314,30 @@ div.small-element a{
 
 /* Ottava Section */
 div.row{
+    padding: 1.5rem 0;
     border-bottom: 2px solid black;
 }
 /* Div che da la dimensione alla domada */
 div.question{
     width: 90%;
+    line-height: 3rem;
     background-color: crimson
+}
+
+div.question p{
+    font-weight: 600;
 }
 /* Div che da la dimensione al selettore */
 div.select{
     width: 10%;
+    text-align: center;
+    line-height: 3rem;
     background-color: darkorange;
 }
+
+div.select i.fa-angle-down{
+    font-size: 1.5rem;
+} 
 
 /* Footer */
 div.footer-container{

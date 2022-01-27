@@ -5,8 +5,8 @@
 }
 
 /* Utility class */
-section{
-    margin-bottom: 3rem;
+.section-margin{
+    margin-bottom: 8rem;
 }
 
 .position{
@@ -29,14 +29,15 @@ section{
 
 .container{
     width: 75%;
-    /* padding: 3.5rem 0; */
     margin: 0 auto;
-    background-color: darkorchid;
+    /* background-color: darkorchid; */
 }
 
-section#light-blue{
+section.light-blue{
     background-color: lightblue;
+    padding: 4.5rem 0;
 }
+
 /* Classe comune dedicata ai bottoni */
 .btn{
     color: white;
@@ -47,7 +48,7 @@ section#light-blue{
 }
 
 h2.sub-title{
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin-bottom: 1.5rem;
 }
 
@@ -122,7 +123,7 @@ section div.jumbotron{
     width: 90%;
     height: 100vh;
     margin: 0 auto;
-    padding: 4.5rem 0;
+    /* padding: 4.5rem 0; */
     border: 1px solid black;
 }
 /* Titolone */
@@ -164,31 +165,28 @@ input{
 }
 
 /* I 3 aside flottati */
+div.colum-wrap{
+    margin-bottom: 2rem;
+}
+
 .middle{
     margin: 0 30px;
 }
 
 div aside.colum{
     width: calc((100% / 3) - 20px);
-    height: 950px;
+    height: 1000px;
     border: 1px solid black;
-    background-color: red;
+    /* background-color: red; */
 }
 
 /* Interno Colonna */
-div.heading{
-    text-align: center;
-    padding: 1rem 0;
-    border-bottom: 1px solid black;
-    font-weight: 500;
-}
-
 div.description-colum{
     padding: 1.5rem 1.2rem;
 }
 
-div.description-colum h2, h4{
-    margin-bottom: 10px;
+div.description-colum h2, h3{
+    margin-bottom: 1.5rem;
 }
 
 div.description-colum span{
@@ -205,7 +203,7 @@ div.box-button{
 
 div.description-colum ul li{
     list-style-type: none;
-    margin-bottom: 15px;
+    margin-bottom: 1.5rem;
     font-weight: 500;
 }
 
@@ -219,17 +217,20 @@ i.fa-check{
 }
 
 /* Footer seconda section */
-/* div#contact-office{
-    padding: 1.5rem;
-} */
-.section-footer{
-    background-color: chartreuse;
+.colum-footer{
+    border: 1px solid black;
 }
 
-div.utility-wrap{
-    padding: 1.5rem;
+div.heading{
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+    font-weight: 500;
 }
 
+div.wrap{
+    padding: 1.5rem;
+}
 
 /* Terza Section (dopo Jumbotron) */
 img#img-partner{
@@ -241,12 +242,12 @@ img#img-partner{
 div.big-element{
     width: 50%;
     margin-right: 40px;
-    height: 500px;
+    /* height: 500px; */
 }
 
 div.small-element{
     width: calc(50% - 40px);
-    height: 500px;
+    /* height: 500px; */
     padding: 2rem 0;
     font-weight: 500;
 }
@@ -306,6 +307,10 @@ div.block{
 }
 
 /* Settima Section */
+h1#purple-title{
+    color: purple;
+}
+
 div.small-element a{
     position: absolute;
     right: 0;

@@ -6,7 +6,7 @@
 
 /* Utility class */
 section{
-    margin-bottom: 160px;
+    margin-bottom: 5rem;
 }
 
 .clearfix{
@@ -29,7 +29,7 @@ section{
 
 .container{
     width: 75%;
-    padding: 4rem 0;
+    /* padding: 3.5rem 0; */
     margin: 0 auto;
     background-color: darkorchid;
 }
@@ -157,7 +157,7 @@ input{
 }
 
 /* I 3 aside flottati */
-aside#middle-colum{
+.middle{
     margin: 0 30px;
 }
 
@@ -250,10 +250,31 @@ div.partner-text a#partner-button{
     border: 2px solid black;
 }
 
-
 /* Quarta Section  */
+div.card{
+    width: calc((100% / 3) - 20px);
+    margin-bottom: 5rem;
+    padding: 1rem;
+    border: 1px solid black;
+}
 
+/* Titolo delle card */
+div.section-title{
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+}
 
+div.section-title h1{
+    font-size: 2.5rem;
+}
+
+/* Card */
+img.tools{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 
 /* Quinta Section */
 

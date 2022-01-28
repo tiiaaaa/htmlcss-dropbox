@@ -9,10 +9,6 @@ p{
     font-weight: 600;
 }
 
-.section-margin{
-    margin-bottom: 8rem;
-}
-
 .position{
     position: relative;
 }
@@ -33,13 +29,13 @@ p{
 
 .container{
     width: 75%;
-    margin: 0 auto;
-    /* background-color: darkorchid; */
+    margin: 0 auto 3.5rem;
 }
 
 section.light-blue{
     background-color: lightblue;
-    padding: 4.5rem 0;
+    padding: 4rem 0;
+    margin-bottom: 7rem;
 }
 
 /* Classe comune dedicata ai bottoni */
@@ -63,12 +59,10 @@ div.section-title{
 .space-min{
     width: 30%;
     padding-right: 4rem;
-    background-color: crimson;
 }
 
 .space-max{
     width: 70%;
-    background-color: darkorange;
 }
 
 /* Classe provvisoria pre dare una dimensione senza il 
@@ -125,10 +119,9 @@ img#jumbo-img{
 
 section div.jumbotron{
     width: 90%;
-    height: 100vh;
+    height: 95vh;
     margin: 0 auto;
-    /* padding: 4.5rem 0; */
-    border: 1px solid black;
+    top: 4.5rem;
 }
 /* Titolone */
 div.jumbotron div.title{
@@ -383,7 +376,7 @@ div.small-element a{
 /* Ottava Section */
 div.row{
     padding: 1.5rem 0;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid lightgray;
 }
 /* Div che da la dimensione alla domada */
 div.question{
@@ -430,6 +423,15 @@ div.ul-box li{
 div.ul-box li a{
     text-decoration: none;
     color: white;
+}
+
+i.fa-globe-americas{
+    font-size: 1rem;
+    color: white;
+}
+
+select#language{
+    background-color: none;
 }
 
 

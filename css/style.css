@@ -5,6 +5,10 @@
 }
 
 /* Utility class */
+p{
+    font-weight: 600;
+}
+
 .section-margin{
     margin-bottom: 8rem;
 }
@@ -138,7 +142,6 @@ div.jumbotron h1{
 
 div.space-min:first-child p{
     margin-bottom: 2rem;
-    font-weight: 500;
     line-height: 1.4rem;
 }
 
@@ -282,28 +285,89 @@ img.tools{
 
 /* Quinta Section */
 
+
 /* Sesta Section */
-section#square{
-    width: 100%;
-} 
+
 /* Quadrato centrale */
-.article-box{
+.box{
     width: 40%;
     height: 460px;
-    background-color: yellow;
+    padding: 3rem;
+    background-color: rgb(245, 245, 245);
 }
+
+div#logo-designit{
+    width: 27%;
+    height: 70px;
+    border-bottom: 1px solid grey;
+    margin-bottom: 2.5rem;
+}
+
+div#logo-designit img{
+    width: 100%;
+}
+
+article.box div p{
+    margin-bottom: 3rem;
+}
+
 /* Quadrati laterali */
 .aside-box{
     width: 30%;
     height: 460px;
-    background-color: red;
 }
-
+/* Quadrati che contegono i singoli svg */
 div.block{
     width: calc(100% / 2);
     height: calc(100% / 2);
-    border: 1px solid red;
     background-color: purple;
+}
+
+img.svg{
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img.filter-white{
+    filter: invert(100%) sepia(8%) saturate(7416%) hue-rotate(296deg) brightness(114%) contrast(110%);
+}
+
+/* Blocco di sinistra */
+div#light-green{
+    background-color: lightgreen;
+    border: 0.7rem solid rgb(203, 240, 203);
+}
+
+div#dark-brown{
+    background-color: rgb(100, 5, 5);
+}
+
+div#sky-blue{
+    background-color: rgb(37, 169, 221);
+}
+
+div#red{
+    background-color: red;
+}
+
+/* Blocco di destra */
+div#crimson-red{
+    background-color: crimson;
+}
+
+div#light-blue{
+    background-color: lightblue;
+}
+
+div#dark-blue{
+    background-color: rgb(35, 35, 163);
+}
+
+div#sun-yellow{
+    background-color: rgb(243, 215, 59);
 }
 
 /* Settima Section */
@@ -325,18 +389,13 @@ div.row{
 div.question{
     width: 90%;
     line-height: 3rem;
-    background-color: crimson
 }
 
-div.question p{
-    font-weight: 600;
-}
 /* Div che da la dimensione al selettore */
 div.select{
     width: 10%;
     text-align: center;
     line-height: 3rem;
-    background-color: darkorange;
 }
 
 div.select i.fa-angle-down{
